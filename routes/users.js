@@ -6,7 +6,7 @@ exports = module.exports = function (app, mongoose) {
 
   /* GET users listing. */
   router.get('/', function (req, res, next) {
-    let User = new app.db.models.User({ name: "Najam", email: "najam@gmail.com" });
+    let User = new app.db.models.User({ name: "Umair", email: "umairahmedbajwa97@gmail.com" });
     User.save().then(data => {
       res.send(data);
     });
