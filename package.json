@@ -1,12 +1,18 @@
 {
-  "name": "socketioserver",
-  "version": "0.0.0",
+  "name": "extended-node-express-boilerplate",
+  "version": "1.0.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Umair Ahmed Bajwa",
+    "url": "https://github.com/umairx97"
+  },
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "chalk": "^3.0.0",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
@@ -14,10 +20,10 @@
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "heroku-ssl-redirect": "0.0.4",
-    "http-errors": "~1.6.2",
+    "http-errors": "^1.6.3",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.3.2",
-    "mongoose": "^5.4.9",
+    "mongoose": "^5.7.12",
     "morgan": "~1.9.0"
   }
 }

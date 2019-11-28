@@ -5,11 +5,11 @@ exports = module.exports = function (app) {
    
     if (process.env.NODE_ENV === 'production') {
         app.set("showLogs", true)
-        app.set("mongodb-url", process.env.MONGO_URI);
+        app.set("MONGO_URI", process.env.MONGO_URI);
        
     } else {
         app.set("showLogs", true)
-        app.set("mongodb-url", "mongodb://localhost:27017/boilerDB");
+        app.set("MONGO_URI", "mongodb://localhost:27017/boilerDB");
        
     }
 }

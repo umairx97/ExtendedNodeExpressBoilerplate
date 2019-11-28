@@ -13,8 +13,6 @@ exports = module.exports = function (app, mongoose) {
 
     const users = [
       { name: "Umair", age: 22, profession: "Fullstack Developer and DevOps Engineer" },
-      { name: "Asad", age: 23, profession: "MERN Developer" },
-      { name: "Shahbaz", age: 21, profession: "React Native Developer" }
     ]
 
     res.send(users)
